@@ -28,6 +28,25 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
+//Carousel slider
+function animation_Carousel() {
+    const carouselSlide = document.getElementById("teste")
+    const carouselImage = document.querySelectorAll("#teste img")
+    let counter = 0
 
+    function carousel() {
+     counter++
+        counter++
+        const size = carouselImage[0].clientWidth
 
+        if(counter > carouselImage.length-2) {
+            counter = 0
+        }
 
+        carouselSlide.style.transform = `translateX(${(-size * counter)+1}px)` 
+    }
+
+    setInterval(carousel, 1300)
+}
+
+animation_Carousel()

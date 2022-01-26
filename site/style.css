@@ -228,3 +228,18 @@ input {
 .show-menu{
   right: 0;
 }
+
+/*Carousel slider*/
+
+.box_animation {
+  display: flex;
+  transition: 0.5s ease-in-out;
+}
+
+.line_decoration {
+  display: block;
+  height: 4px;
+  background-color: grey;
+}
+
+/*Our Team*/
