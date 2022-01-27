@@ -242,4 +242,157 @@ input {
   background-color: grey;
 }
 
-/*Our Team*/
+/*Contact Us*/
+.efect-parallax{
+    height: 100vh;
+    background-image: url(./img/foto-contac-us-cut.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    transition: 0.2s linear;
+    z-index: -1;
+}
+.contact-us-contanier{
+  display: block;
+  height: inherit;
+  background: linear-gradient(to left, rgb(255, 255, 255)5%, rgba(255, 255, 255, 0.275));
+}
+
+.text_contac-us h4 {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.text_contac-us h3 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.text_contac-us {
+  margin-left: 5vw;
+  padding-top: 10vh;
+}
+
+.text_contac-us::after {
+  content: '';
+  display: block;
+  width: 150px;
+  height: 10px;
+  margin-top: 15px;
+  background-color: #141f5c;
+}
+/*Form ContactUs*/
+.form_contatc-us {
+  display: flex;
+}
+
+/*Inputs of Form Contact-Us*/
+  #first-name {
+  border: 3vw  solid white;
+  width: 80vw;
+  margin-bottom: 12px;
+  margin-left: 5vw;
+  margin-top: 4vh;
+}
+
+input:not(#first-name)  {
+  border: 3vw  solid white;
+  width: 80vw;
+  margin-bottom: 12px;
+  margin-left: 5vw;
+}
+
+#yourMessage {
+  border: 3vw  solid white;
+  width: 80vw;
+  margin-bottom: 8px;
+  margin-left: 5vw;
+  outline: none;
+  resize: none;
+}
+
+#send {
+  margin-left: 5vw;
+  border: 3vw solid white;
+  font-weight: 800;
+  text-transform: uppercase;
+  background-color: white;
+  color: #141f5c;
+  transition: 0.3s linear;
+}
+
+#send:hover {
+  border: 3vw solid #141f5c;
+  background-color: #141f5c;
+  color: #FFF;
+}
+
+/*Footer*/
+.footer {
+  background-color: #141f5c;
+  background-size: cover;
+  
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5vw;
+}
+
+.logo-footer {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.footer-container p {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #FFF;
+  margin-bottom: 2vh;
+}
+.icons-social-midia {
+  display: flex;
+}
+
+.icon-facebook{
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.2rem;
+  color: #FFF;
+  margin-right: 10px;
+  border: 2px solid #FFF;
+  border-radius: 5px;
+}
+
+.icon-instagram{
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 1.2rem;
+  color: #FFF;
+  margin-right: 10px;
+  border: 2px solid #FFF;
+  border-radius: 5px;
+}
+
+.icon-linkedin {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 1.2rem;
+  color: #FFF;
+  border: 2px solid #FFF;
+  border-radius: 5px;
+}
+
+
+.last-element {
+  display: block;
+  height: 2vh;
+}
