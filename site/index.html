@@ -4,12 +4,12 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+        <link rel="shortcut icon" href="#" type="image/png">
 
         <!--=============== REMIXICONS ===============-->
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
       
-        <!--============Font Awesome============-->
+        <!--============ Font Awesome ============-->
         <script src="https://kit.fontawesome.com/3aadbf7125.js" crossorigin="anonymous"></script>
 
         <!--=============== SWIPER CSS ===============-->
@@ -21,68 +21,41 @@
         <title>A&B Transportadora</title>
     </head>
     <body>
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="#" class="nav__logo">A&B Transportadora</a>
-
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">Home</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">Quem Somos</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#services" class="nav__link">Serviços</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">Contato</a>
-                        </li>
-                    </ul>
-
-                    <i class="ri-close-line nav__close" id="nav-close"></i>
-                </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="ri-function-line"></i>
-                </div>
-        </nav>
-    </header>
-   
     <main class="main">
     <!-- Animation-bar -->
         <section class="animation_carousel">
             <div class="box_animation" id="box_animationID">
                 <img src="./img/imagem-teste.png">
                 <img src="./img/download (1).png">
-                <img src="./img/download (2).png">
-                <img src="./img/download (3).png">
-                <img src="./img/download.png">
-                <img src="./img/images (1).png">
-                <img src="./img/images.png">
-                <img src=".//img/download (3).png">
+                <img src="./img/imagem-teste.png">
+                <img src="./img/download (1).png">
+                <img src="./img/imagem-teste.png">
+                <img src="./img/download (1).png">
+                <img src="./img/imagem-teste.png">
+                <img src="./img/download (1).png">
             </div>
-            <span class="line_decoration"></span>
         </section>
     <!-- Contact Us -->
         <section class="contact-us">
             <div class="efect-parallax">
                 <div class="contact-us-contanier">
                     <div class="content-contact-us">
-                        <div class="text_contac-us">
+                        <div class="text-contact-us">
                             <h4>CONTACT US</h4>
                             <h3>Let's talk about your contracts</h3>
                         </div>
-                        <div class="form_contact-us">
+                        <div class="form-contact-us">
                             <form action="#" method="post">
-                                <input type="text" id="first-name" placeholder="Nome"maxlength="250">
-                    
-                                <input type="text" id="last-name" placeholder="Sobrenome" maxlength="250">
-                         
-                                <input type="email" id="your-email" placeholder="Endereço de Email" maxlength="250">
-                    
-                                <input type="text" id="subject" placeholder="Sujeito" maxlength="250">
+                                <div class="input-group">
+                                    <input type="text" id="first-name" placeholder="Nome"maxlength="250">
+                        
+                                    <input type="text" id="last-name" placeholder="Sobrenome" maxlength="250">
+                            
+                                    <input type="email" id="your-email" placeholder="Endereço de Email" maxlength="250">
+                        
+                                    <input type="text" id="subject" placeholder="Sujeito" maxlength="250">
+                                </div>
+                                
                             
                                 <textarea name="suamensagem" id="yourMessage" cols="30" rows="5" placeholder="Sua Mensagem" maxlength="250"></textarea>
                     
@@ -97,20 +70,22 @@
     </main>
     <footer class="footer">
         <div class="footer-container">
-            <a href="#"><img src="#" alt="logo-footer" class="logo-footer"></a>
-            <p><i class="fas fa-phone-alt"></i> Telefone: (55)000-0000</p>
-            <p><i class="far fa-envelope"></i> Email: exemplo@exemplo.com</p>
-            <p><i class="fas fa-map-marker-alt"></i> Local: Exemplo - Rua Exemplo, N°0</p>
+            <a href="#"><img src="./img/logo-footer.png" alt="logo-footer" class="logo-footer"></a>
+            <div class="fast-links">
+                <p><i class="fas fa-phone-alt"></i> Telefone: (55)000-0000</p>
+                <p><i class="far fa-envelope"></i> Email: exemplo@exemplo.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Local: Exemplo - Rua Exemplo, N°0</p>
+            </div>
 
             <div class="icons-social-midia">
                 <a href="#" class="icon-facebook"><i class="fab fa-facebook-f"></i></a>
                 <a href="#" class="icon-instagram"><i class="fab fa-instagram "></i></a>
                 <a href="#" class="icon-linkedin"><i class="fab fa-linkedin-in"></i></a>
             </div>
-            <span class="copyright">
-                <p>&copy; Direitos Reservados, Araujo e Barros Tranporadora</p>
-            </span>
         </div>
+        <span class="copyright">
+            <p>&copy; Direitos Reservados, Araujo e Barros Transportadora</p>
+        </span>
     </footer>
     <!-- MAIN JS -->
     <script src="js/main.js"></script>
