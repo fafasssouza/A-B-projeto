@@ -141,6 +141,68 @@ input {
 }
 
 @media screen and (max-width: 767px) {
+  /*Our Services Mobile*/
+  .our-services {
+    display: block;
+    background-color: white;
+  }
+
+  .content-our-services {
+    margin-left: 5vw;
+  }
+
+  .content-our-services h4 {
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: grey;
+  }
+
+  .content-our-services h2 {
+    font-weight: 700;
+    font-size: 1.8rem;
+  }
+
+  .content-our-services::after {
+    content: '';
+    display: block;
+    width: 135px;
+    height: 8px;
+    margin-top: 15px;
+    background-color: #141f5c;
+    margin-bottom: 2%;
+  }
+  /*Cards Our-Services Mobile*/
+  .cards-our-services {
+    margin-left: 5vw;
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .card img {
+    float: left;
+    display: block;
+    width: 100px;
+    margin-right: 15px;
+  }
+  .card h5 {
+    color: black;
+    font-size: var(--h3-font-size);
+    font-weight: 900;
+    margin-bottom: 2px;
+  }
+
+  .card p {
+    color: gray;
+  }
+
+
   /*Carousel Mobile*/
   .animation_carousel {
     overflow: hidden;
@@ -326,8 +388,7 @@ input::placeholder, textarea::placeholder {
 
 .copyright{
   display: block;
-  height: 35px;
-  
+  height: 40px;
 }
 
 .copyright::before {
@@ -341,15 +402,78 @@ input::placeholder, textarea::placeholder {
 .copyright p {
   font-weight: 700;
   color: #FFF;
-  font-size: var(--small-font-size);
+  font-size: var(--smaller-font-size);
   margin-left: 5vw;
 }
 
 }
 
 @media screen and (min-width: 767px){
-    /*Carousel Desktop*/
+ /*Our Services Desktop*/
+ .our-services {
+  display: block;
+  background-color: white;
+}
 
+.content-our-services {
+  margin-left: 5vw;
+  width: 60%;
+}
+
+.content-our-services h4 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: grey;
+}
+
+.content-our-services h2 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.content-our-services::after {
+  content: '';
+  display: block;
+  width: 135px;
+  height: 8px;
+  margin-top: 15px;
+  background-color: #141f5c;
+  margin-bottom: 2%;
+}
+/*Cards Our-Services Desktop*/
+.cards-our-services {
+  margin-left: 5vw;
+  padding-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  display: block;
+  width: 33%;
+  margin-bottom: 25px;
+}
+
+.card img {
+  float: left;
+  display: block;
+  width: 100px;
+  margin-right: 10px;
+}
+.card h5 {
+  color: black;
+  font-size: var(--h3-font-size);
+  font-weight: 900;
+}
+
+.card p {
+  color: gray;
+  font-size: var(--small-font-size);
+  width: 80%;
+}
+
+  /*Carousel Desktop*/
 .animation_carousel {
   overflow: hidden;
   height: 150px;
@@ -545,7 +669,7 @@ input::placeholder, textarea::placeholder {
 
 .copyright{
   display: block;
-  height: 45px;
+  height: 40px;
   width: 100%;
   text-align: center;
 }
