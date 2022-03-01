@@ -4,90 +4,245 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+        <link rel="shortcut icon" href="#" type="image/png">
 
         <!--=============== REMIXICONS ===============-->
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-        
+      
+        <!--============ Font Awesome ============-->
+        <script src="https://kit.fontawesome.com/3aadbf7125.js" crossorigin="anonymous"></script>
+
         <!--=============== SWIPER CSS ===============-->
         <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
         <!--=============== CSS ===============-->
         <link rel="stylesheet" href="style.css">
-
+        <!--=============== FONTAWEASOME ===============-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
         <title>A&B Transportadora</title>
     </head>
     <body>
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="#" class="nav__logo">A&B Transportadora</a>
+            <header class="header" id="header">
+                <a href="#" class="truck-logo">
+                </a>
+                <nav class="nav-container">
+                    <div class="header-controls">
+                        <div class="control-whatsapp">
+                            <a class="whatsapp" href="#">
+                                <span class="icon-1">
+                                    <i class="fab fa-whatsapp icon"></i>
+                                </span>
+                                <span class="name">
+                                    WhatsApp
+                                </span>
+                                <h5 class="icon__desc">XXX-XXX-XXX</h5>
+                            </a>
+                        </div>
+                        
+                        <div class="control-email">
+                            <a class="email" href="#">
+                                <span class="icon-1">
+                                    <i class="far fa-envelope icon"></i>
+                                </span>
+                                <span class="name">
+                                    E-mail
+                                </span>
+                                <h5 class="icon__desc">XXX-XXX-XXX</h5>
+                            </a>
+                        </div>
+                        
+                        <div class="control-phone">
+                            <a class="phone" href="#">
+                                <span class="icon-1">
+                                    <i class="fas fa-mobile-alt icon"></i>
+                                </span>
+                                <span class="name">
+                                    Telefone
+                                </span>
+                                <h5 class="icon__desc">XXX-XXX-XXX</h5>
+                            </a>
+                        </div>
+                    </div>
+                    <img class="truck-logo" src="img/main-logo.png" alt="">
+                    <div class="nav__menu" id="nav-menu">
+                        <ul class="nav__list" id="nav-list">
+                            <li class="nav__item">
+                                <a href="#home" class="nav__link active-link">Home</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#about" class="nav__link">Quem Somos</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#services" class="nav__link">Serviços</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#contact" class="nav__link">Contato</a>
+                            </li>
+                        </ul>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">Home</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#about" class="nav__link">Quem Somos</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#services" class="nav__link">Serviços</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#contact" class="nav__link">Contato</a>
-                        </li>
-                    </ul>
+                        <i class="ri-close-line"></i>
+                    </div>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-function-line"></i>
+                    </div>
+                </nav>
+            </header>
+           
+            <main class="main">
+                <!-- Home -->
+                <section class="home" id="home">
+                    <img src="#" alt="" class="home__img">
+                    
+                    <div class="home__container container grid">
+                        <div class="home__data">   
+                            <span class="home__data-subtitle">seu material seguro</span>
+                            <h1 class="home__data-title">A&B<br>TRANSPORTADORA</h1>
+                            <a href="" class="button">SAIBA MAIS <i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
 
-                    <i class="ri-close-line nav__close" id="nav-close"></i>
-                </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="ri-function-line"></i>
-                </div>
-        </nav>
-    </header>
-    <!-- MAIN JS -->
-<script src="js/main.js"></script>
-
-    <main class="main">
-    <!-- Home -->
-        <section class="home" id="home">
-            <img src="img/home1.jpg" alt="" class="home__img">
-
-            <div class="home__container container grid">
-                <div class="home__data">   
-                    <span class="home__data subtitle">Seu material seguro</span>
-                    <h1 class="home__data-title">A&B<br>Transportadora</h1>
-                    <a href="#" class="button">Saiba mais</a>
-                </div>
-
-                <div class="home__social">
-                    <a href="#" target="_blank" class="home__social-link">
-                        <i class="ri-whatsapp-line"></i>
-                    </a>
-
-                    <a href="#" target="_blank" class="home__social-link">
-                        <i class="ri-mail-line"></i>
-                    </a>
-
-                    <a href="#" target="_blank" class="home__social-link">
-                        <i class="ri-phone-line"></i>
-                    </a>
-                </div>
-            </div>
+                    </div>
+                </section>
+            </main>
+        <!-- About -->
+        <!-- Services -->
+        <section class="services__section" id="services">
+            <section class="about__section" id="about">
+                <main class="about__main">
+                    <section class="about__card">
+                        <div class="about__icon">
+                            <img src="img/card-truck.png" id="about__img" alt="">
+                        </div>
+                        <h3>Fast transport</h3>
+                        <span>Most of our work is done <br> overnight …</span>
+                        <a class="read__more1" href="#">Read more <i class="ri-truck-fill"></i></a>
+                    </section>
+                    <section class="about__card">
+                        <div class="about__icon">
+                            <img src="img/card-plane.png" id="about__img" alt=""> 
+                        </div>
+                        <h3>Safe Fly</h3>
+                        <span>We only operate newly bought <br> aircrafts …</span>
+                        <a class="read__more2" href="#">Read more <i class="ri-truck-fill"></i></a>
+                    </section>
+                    <section class="about__card">
+                        <div class="about__icon">
+                            <img src="img/card-clock.png" id="about__img" alt="">
+                        </div>
+                            <h3>Timely Delivery</h3>
+                        <span>Our packages are never late and <br> this is …</span> 
+                        <a class="read__more3" href="#">Read more <i class="ri-truck-fill"></i></a> 
+                    </section>
+                </main>
+            </section>
         </section>
-    <!-- About -->
-        <section class="about section" id="about">
+                
+        <main class="main">
+            <!--Our Services-->
+                <section class="our-services">
+                    <div class="content-our-services">
+                        <h4>OUR SERVICES</h4>
+                        <h2>There are Many Types of Services in Logistics</h2>
+                    </div>
+                    <div class="cards-our-services">
+                        <a href="#" class="card">
+                        <img src="./img/box-open.png" alt="box-open">
+                            <h5>Completed Jobs</h5>
+                            <p>Deliverables who's responsible...</p>
+                        </a>
+                        <a href="#" class="card">
+                            <img src="./img/box-open.png" alt="box-open">
+                            <h5>Completed Jobs</h5>
+                            <p>Deliverables who's responsible...</p>
+                        </a>
+                        <a href="#" class="card">
+                            <img src="./img/box-open.png" alt="box-open">
+                            <h5>Completed Jobs</h5>
+                            <p>Deliverables who's responsible...</p>
+                        </a>
+                        <a href="#" class="card">
+                            <img src="./img/box-open.png" alt="box-open">
+                            <h5>Completed Jobs</h5>
+                            <p>Deliverables who's responsible...</p>
+                        </a>
+                        <a href="#" class="card">
+                            <img src="./img/box-open.png" alt="box-open">
+                            <h5>Completed Jobs</h5>
+                            <p>Deliverables who's responsible...</p>
+                        </a>
+                        <a href="#" class="card">
+                            <img src="./img/box-open.png" alt="box-open">
+                            <h5>Completed Jobs</h5>
+                            <p>Deliverables who's responsible...</p>
+                        </a>
+                    </div>
+                </section>
+             <!--Carousel-->
+                <section class="animation_carousel">
+                    <div class="box_animation" id="box_animationID">
+                        <img src="./img/imagem-teste.png">
+                        <img src="./img/download (1).png">
+                        <img src="./img/imagem-teste.png">
+                        <img src="./img/download (1).png">
+                        <img src="./img/imagem-teste.png">
+                        <img src="./img/download (1).png">
+                        <img src="./img/imagem-teste.png">
+                        <img src="./img/download (1).png">
+                    </div>
+                </section>
+             <!--Contact us-->
+                <section class="contact-us">
+                    <div class="efect-parallax">
+                        <div class="contact-us-contanier">
+                            <div class="content-contact-us">
+                                <div class="text-contact-us">
+                                    <h4>CONTACT US</h4>
+                                    <h3>Let's talk about your contracts</h3>
+                                </div>
+                                <div class="form-contact-us">
+                                    <form action="#" method="post">
+                                        <div class="input-group">
+                                            <input type="text" id="first-name" placeholder="Nome"maxlength="250">
+                                
+                                            <input type="text" id="last-name" placeholder="Sobrenome" maxlength="250">
+                                    
+                                            <input type="email" id="your-email" placeholder="Endereço de Email" maxlength="250">
+                                
+                                            <input type="text" id="subject" placeholder="Sujeito" maxlength="250">
+                                        </div>
+                                        
+                                    
+                                        <textarea name="suamensagem" id="yourMessage" cols="30" rows="5" placeholder="Sua Mensagem" maxlength="250"></textarea>
+                            
+                                        <button type="submit" id="send">Enviar Mensagem <i class="fas fa-arrow-right"></i></i></button>
+                                    
+                                    </form>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <!--Footer-->
+            <footer class="footer">
+                <div class="footer-container">
+                    <a href="#"><img src="./img/logo-footer.png" alt="logo-footer" class="logo-footer"></a>
+                    <div class="fast-links">
+                        <p><i class="fas fa-phone-alt"></i> Telefone: (55)000-0000</p>
+                        <p><i class="far fa-envelope"></i> Email: exemplo@exemplo.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Local: Exemplo - Rua Exemplo, N°0</p>
+                    </div>
 
-        </section>
-    <!-- Services -->
-        <section class="services section" id="services">
-
-        </section>
-    <!-- Contact -->
-        <section class="contact section" id="contact">
-
-        </section>
-    </main>
-</body>
+                    <div class="icons-social-midia">
+                        <a href="#" class="icon-facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="icon-instagram"><i class="fab fa-instagram "></i></a>
+                        <a href="#" class="icon-linkedin"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <span class="copyright">
+                    <p>&copy; Direitos Reservados, Araujo e Barros Transportadora</p>
+                </span>
+            </footer>
+            <!-- MAIN JS -->
+            <script src="js/main.js"></script>
+    </body>
 </html>
