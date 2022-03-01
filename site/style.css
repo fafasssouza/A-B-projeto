@@ -686,6 +686,7 @@ html{
   .our-services {
     display: block;
     background-color: white;
+    margin-top: 900px;
   }
 
   .content-our-services {
@@ -954,6 +955,7 @@ input::placeholder, textarea::placeholder {
  .our-services {
   display: block;
   background-color: white;
+  margin-top: 250px;
 }
 
 .content-our-services {
