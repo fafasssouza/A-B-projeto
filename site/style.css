@@ -685,7 +685,7 @@ html{
   /*Our Services Mobile*/
   .our-services {
     display: block;
-    background-color: white;
+    background-color: var(--body-color);
     margin-top: 900px;
   }
 
@@ -954,7 +954,7 @@ input::placeholder, textarea::placeholder {
  /*Our Services Desktop*/
  .our-services {
   display: block;
-  background-color: white;
+  background-color: var(--body-color);
   margin-top: 250px;
 }
 
