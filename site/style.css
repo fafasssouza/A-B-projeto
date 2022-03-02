@@ -527,6 +527,9 @@ input {
     margin-left: 32px;
   }
   
+  .about__main{
+    margin-left: 1.5vw;
+  }
 }
 
 .about__main .about__card:first-child{
