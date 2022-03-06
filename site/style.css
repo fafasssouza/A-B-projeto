@@ -161,6 +161,7 @@ input {
   top: 0;
   left: 0;
   margin-bottom: 25px;
+  margin-top: 25px;
 }
 /* NAV */
 @media (min-width: 768px) {
@@ -213,7 +214,7 @@ input {
 }
 .home__img {
   background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/home1.jpg);
-  padding-bottom: 250px;
+
 }
 @media (min-width: 768px){
   .home__img{
