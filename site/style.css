@@ -160,6 +160,7 @@ input {
   position: relative;
   top: 0;
   left: 0;
+  margin-bottom: 25px;
 }
 /* NAV */
 @media (min-width: 768px) {
@@ -170,7 +171,7 @@ input {
   }
   .nav__list{
     margin: 0;
-    padding: 130px 0px 0; /* Altura da barra de navegação */
+    padding: 155px 0px 0; /* Altura da barra de navegação */
     list-style: none;
     text-align: center;
   }
@@ -212,6 +213,7 @@ input {
 }
 .home__img {
   background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/home1.jpg);
+  padding-bottom: 250px;
 }
 @media (min-width: 768px){
   .home__img{
