@@ -528,6 +528,7 @@ input {
   .about__main .about__card{
     min-width: 300px;
     margin-left: 32px;
+    margin-bottom: -30px;
   }
   
   .about__main{
@@ -885,13 +886,58 @@ input::placeholder, textarea::placeholder {
   margin-left: 5vw;
 }
 
-.fast-links p {
+.phone-footer,.email-footer,.local-footer {
+  display: block;
+}
+
+.phone-footer p{
+  font-weight: 500;
+  font-size: 1rem;
+  color: #FFF;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  display: inline;
+}
+.phone_footer {
   font-weight: 500;
   font-size: 1rem;
   color: #FFF;
   margin-bottom: 2vh;
   margin-left: 5vw;
 }
+
+.email-footer p{
+  font-weight: 500;
+  font-size: 1rem;
+  color: #FFF;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  display: inline;
+}
+.email_footer {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #FFF;
+  margin-bottom: 2vh;
+  margin-left: 5vw;
+}
+
+.local-footer p{
+  font-weight: 500;
+  font-size: 1rem;
+  color: #FFF;
+  margin-bottom: 2vh;
+  margin-left: 2vw;
+  display: inline;
+}
+.local_footer {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #FFF;
+  margin-bottom: 2vh;
+  margin-left: 5vw;
+}
+
 .icons-social-midia {
   display: flex;
   margin-bottom: 2vh;
@@ -907,7 +953,6 @@ input::placeholder, textarea::placeholder {
   color: #FFF;
   margin-right: 10px;
   border: 2px solid #FFF;
-  border-radius: 5px;
 }
 
 .icon-instagram{
@@ -919,7 +964,6 @@ input::placeholder, textarea::placeholder {
   color: #FFF;
   margin-right: 10px;
   border: 2px solid #FFF;
-  border-radius: 5px;
 }
 
 .icon-linkedin {
@@ -930,7 +974,6 @@ input::placeholder, textarea::placeholder {
   font-size: 1.2rem;
   color: #FFF;
   border: 2px solid #FFF;
-  border-radius: 5px;
 }
 
 
@@ -943,11 +986,11 @@ input::placeholder, textarea::placeholder {
   content: '';
   display: block;
   width: 100%;
-  height: 2px;
+  height: 1px;
   background-color: #FFF;
-  margin-bottom: 2%;
 }
 .copyright p {
+  margin-top: 3%;
   font-weight: 700;
   color: #FFF;
   font-size: var(--smaller-font-size);
@@ -961,7 +1004,7 @@ input::placeholder, textarea::placeholder {
  .our-services {
   display: block;
   background-color: var(--body-color);
-  margin-top: 250px;
+  margin-top: 200px;
 }
 
 .content-our-services {
@@ -1170,11 +1213,62 @@ input::placeholder, textarea::placeholder {
 .logo-footer {
   width: 150px;
 }
-
+/*
 .fast-links p {
   font-weight: 500;
   font-size: 1.2rem;
   color: #FFF;
+}*/
+.phone-footer,.email-footer,.local-footer {
+  display: block;
+}
+
+.phone-footer p{
+  font-weight: 500;
+  font-size: 1rem;
+  color: #FFF;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  display: inline;
+}
+.phone_footer {
+  font-weight: 900;
+  font-size: 1rem;
+  color: #FFF;
+  margin-bottom: 2vh;
+  margin-left: 5vw;
+}
+
+.email-footer p{
+  font-weight: 500;
+  font-size: 1rem;
+  color: #FFF;
+  margin-bottom: 2vh;
+  margin-left: 1vw;
+  display: inline;
+}
+.email_footer {
+  font-weight: 900;
+  font-size: 1rem;
+  color: #FFF;
+  margin-bottom: 2vh;
+  margin-left: 5vw;
+}
+
+.local-footer p{
+  font-weight: 500;
+  font-size: 1rem;
+  color: #FFF;
+  margin-bottom: 2vh;
+  margin-left: 1.5vw;
+  display: inline;
+}
+.local_footer {
+  font-weight: 900;
+  font-size: 1rem;
+  color: #FFF;
+  margin-bottom: 2vh;
+  margin-left: 5vw;
 }
 
 .icons-social-midia {
@@ -1190,7 +1284,6 @@ input::placeholder, textarea::placeholder {
   color: #FFF;
   margin-right: 10px;
   border: 2px solid #FFF;
-  border-radius: 5px;
 }
 
 .icon-instagram{
@@ -1202,7 +1295,6 @@ input::placeholder, textarea::placeholder {
   color: #FFF;
   margin-right: 10px;
   border: 2px solid #FFF;
-  border-radius: 5px;
 }
 
 .icon-linkedin {
@@ -1213,7 +1305,6 @@ input::placeholder, textarea::placeholder {
   font-size: 1.2rem;
   color: #FFF;
   border: 2px solid #FFF;
-  border-radius: 5px;
 }
 
 .copyright{
@@ -1226,12 +1317,14 @@ input::placeholder, textarea::placeholder {
 .copyright::before {
   content: '';
   display: block;
-  width: 100%;
-  height: 2px;
+  width: 98%;
+  height: 1px;
   background-color: #FFF;
-  margin-bottom: 10px;
+  margin: 0 auto;
+  border-radius: 10px;
 }
 .copyright p {
+  margin-top: 10px;
   font-weight: 700;
   font-size: var(--small-font-size);
   color: #fff;
