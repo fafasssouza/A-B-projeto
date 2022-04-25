@@ -16,7 +16,7 @@
   --text-color: hsl(var(--hue-color), 24%, 35%);
   --text-color-light: hsl(var(--hue-color), 8%, 60%);
   --input-color: hsl(var(--hue-color), 24%, 97%);
-  --body-color: hsl(var(--hue-color), 100%, 99%);
+  --body-color: #FFF;
   --white-color: #FFF;
   --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 75%);
@@ -128,6 +128,7 @@ input {
 .main {
   overflow-x: hidden;
   overflow-y: hidden;
+  background-color: #FFF;
 }
 
 /* Reusable CSS classes*/
@@ -407,18 +408,26 @@ input {
   background: transparent;
   position: relative;
   cursor: pointer;
+  transition: 0.5s linear;
 }
+
+.button:hover {
+  color: #11194B;
+  background-color: #fff;
+}
+
 @media(max-width: 968px){ 
   .home__data-subtitle{
     font-size: 15px;
   }
 }
 @media(max-width: 768px){
+
   .truck-logo{
     height: 165px;
     width: 145px;
     margin-top: -45px;
-    margin-left: -165px;
+    margin-left: -165;
     }
 }
 
@@ -442,6 +451,7 @@ input {
     margin: auto;
     width: 50%;
     padding: 10px;
+    z-index: 2;
   }
 
 @media(min-width: 768px){
@@ -449,7 +459,7 @@ input {
   .truck-logo{
     height: 200px;
     width: 180px;
-    margin-top: -45px;
+    margin-top: -25px;
     margin-left: -95px;
   }
   .header-logo{
@@ -623,13 +633,13 @@ input {
   transform: scale(1.05);
 }
 .about__card:hover .read__more1{
-  color: #F16823;
+  color: #11194B;
 }
 .about__card:hover .read__more2{
-  color: #F16823;
+  color: #11194B;
 }
 .about__card:hover .read__more3{
-  color: #F16823;
+  color: #11194B;
 }
 .icon-1, .name, .icon__desc{
   clear: both;
@@ -692,7 +702,7 @@ html{
   /*Our Services Mobile*/
   .our-services {
     display: block;
-    background-color: var(--body-color);
+    background-color: #FFF;
     margin-top: 900px;
   }
 
@@ -717,7 +727,7 @@ html{
     width: 135px;
     height: 8px;
     margin-top: 15px;
-    background-color: #141f5c;
+    background-color: #11194B;
     margin-bottom: 2%;
   }
   /*Cards Our-Services Mobile*/
@@ -737,7 +747,7 @@ html{
   .card img {
     float: left;
     display: block;
-    width: 100px;
+    width: 90px;
     margin-right: 15px;
   }
   .card h5 {
@@ -753,11 +763,18 @@ html{
 
 
   /*Carousel Mobile*/
+
+  .container-carrousel {
+    width: 100%;
+    height: 100%;
+    background-color: #FFF;
+  }
   .animation_carousel {
     overflow: hidden;
     height: 150px;
     width: 300px;
     margin: 15px auto 15px auto;
+    background-color: #fff;
   }
   
   .box_animation {
@@ -775,7 +792,7 @@ html{
 /*Contact Us Mobile*/
 
 .efect-parallax{
-    background-image: url(./img/foto-contac-us-cut.jpg);
+    background-image: url(./img/img-contact-us.jpg);
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -788,7 +805,7 @@ html{
   height: 100%;
   overflow-y: hidden;
   padding-bottom: 10vh;
-  background: linear-gradient(to left, rgb(255, 255, 255)5%, rgba(255, 255, 255, 0.275));
+  background: linear-gradient(to left, rgb(255, 255, 255), rgba(255, 255, 255, 0.275));
 }
 
 .text-contact-us h4 {
@@ -812,7 +829,7 @@ html{
   width: 135px;
   height: 8px;
   margin-top: 15px;
-  background-color: #141f5c;
+  background-color: #11194B;
   margin-bottom: 2%;
 }
 /*Form ContactUs Mobile*/
@@ -857,19 +874,19 @@ input::placeholder, textarea::placeholder {
   font-size: 1rem;
   text-transform: uppercase;
   background-color: white;
-  color: #141f5c;
+  color: #11194B;
   transition: 0.1s linear;
 }
 
 #send:hover {
-  border: 5vw solid #141f5c;
-  background-color: #141f5c;
+  border: 5vw solid #11194B;
+  background-color: #11194B;
   color: #FFF;
 }
 
 /*Footer Mobile*/
 .footer {
-  background-color: #141f5c;
+  background-color: #11194B;
   background-size: cover;
 }
 
@@ -901,9 +918,9 @@ input::placeholder, textarea::placeholder {
 .phone_footer {
   font-weight: 500;
   font-size: 1rem;
-  color: #FFF;
   margin-bottom: 2vh;
   margin-left: 5vw;
+  color: #FFF;
 }
 
 .email-footer p{
@@ -917,9 +934,9 @@ input::placeholder, textarea::placeholder {
 .email_footer {
   font-weight: 500;
   font-size: 1rem;
-  color: #FFF;
   margin-bottom: 2vh;
   margin-left: 5vw;
+  color: #FFF;
 }
 
 .local-footer p{
@@ -933,9 +950,9 @@ input::placeholder, textarea::placeholder {
 .local_footer {
   font-weight: 500;
   font-size: 1rem;
-  color: #FFF;
   margin-bottom: 2vh;
   margin-left: 5vw;
+  color: #FFF;
 }
 
 .icons-social-midia {
@@ -1003,7 +1020,7 @@ input::placeholder, textarea::placeholder {
  /*Our Services Desktop*/
  .our-services {
   display: block;
-  background-color: var(--body-color);
+  background-color: #FFF;
   margin-top: 200px;
 }
 
@@ -1029,7 +1046,7 @@ input::placeholder, textarea::placeholder {
   width: 135px;
   height: 8px;
   margin-top: 15px;
-  background-color: #141f5c;
+  background-color: #11194B;
   margin-bottom: 2%;
 }
 /*Cards Our-Services Desktop*/
@@ -1043,34 +1060,46 @@ input::placeholder, textarea::placeholder {
 
 .card {
   display: block;
-  width: 33%;
-  margin-bottom: 25px;
+  width: 40%;
+  margin-bottom: 25px;  
 }
 
 .card img {
   float: left;
   display: block;
-  width: 100px;
-  margin-right: 10px;
+  width: 90px;
+  margin-right: 15px;
 }
-.card h5 {
+
+.content-card {
+  display: flex;
+  flex-direction: column;
+}
+.content-card h5 {
   color: black;
   font-size: var(--h3-font-size);
   font-weight: 900;
 }
 
-.card p {
+.content-card p {
   color: gray;
   font-size: var(--small-font-size);
   width: 80%;
 }
 
   /*Carousel Desktop*/
+.container-carrousel {
+  width: 100%;
+  height: 100%;
+  background-color: #FFF;
+}
+
 .animation_carousel {
   overflow: hidden;
   height: 150px;
   width: 600px;
   margin: 15px auto 15px auto;
+  background-color: #FFF;
 }
 
 .box_animation {
@@ -1088,7 +1117,7 @@ input::placeholder, textarea::placeholder {
 /*Contact Us Desktop*/
 
 .efect-parallax{
-  background-image: url(./img/foto-contac-us-cut.jpg);
+  background-image: url(./img/img-contact-us.jpg);
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1101,7 +1130,7 @@ input::placeholder, textarea::placeholder {
   height: 100%;
   overflow-y: hidden;
   padding-bottom: 10vh;
-  background: linear-gradient(to left, rgb(255, 255, 255)5%, rgba(255, 255, 255, 0.275));
+  background: linear-gradient(to left, rgb(255, 255, 255), rgba(255, 255, 255, 0.275));
 }
 
 .text-contact-us,.form-contact-us, .footer-container{
@@ -1132,7 +1161,7 @@ input::placeholder, textarea::placeholder {
   width: 135px;
   height: 8px;
   margin-top: 15px;
-  background-color: #141f5c;
+  background-color: #11194B;
   margin-bottom: 5%;
 }
 
@@ -1184,20 +1213,20 @@ input::placeholder, textarea::placeholder {
   font-size: 1.2rem;
   text-transform: uppercase;
   background-color: white;
-  color: #141f5c;
+  color: #11194B;
   transition: 0.3s linear;
   outline: none;  
 }
 
 #send:hover {
-  border: 30px solid #141f5c;
-  background-color: #141f5c;
+  border: 30px solid #11194B;
+  background-color: #11194B;
   color: #FFF;
 }
 
 /*Footer Desktop*/
 .footer {
-  background-color: #141f5c;
+  background-color: #11194B;
   background-size: cover;
 }
 
